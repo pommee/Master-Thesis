@@ -1,0 +1,13 @@
+syntax = "proto3";
+package com.exam.product.api;
+
+
+message HelloRequest {
+  int32 id = 1;
+  string message = 2;
+  string date = 3;
+}
+
+message HelloResponse {
+  string greeting = 1;
+}

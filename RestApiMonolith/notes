@@ -1,0 +1,3 @@
+För att generera alla filer så använder vi kommando nedanför, tänk på att allt är absolut position.
+
+.\protoc --plugin=protoc-gen-grpc-java=protoc-gen-grpc-java.exe -I=C:\Users\hugoh\Desktop\ExamensArbete\Client\src\main\proto --java_out=C:\Users\hugoh\Desktop\ExamensArbete\Client\generatedgrpc\java --grpc-java_out=C:\Users\hugoh\Desktop\ExamensArbete\Client\generatedgrpc C:\Users\hugoh\Desktop\ExamensArbete\Client\src\main\proto\HelloService.proto
